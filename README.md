@@ -93,4 +93,3 @@ pip install -r requirements.txt
 python train_rf_xgb.py  # includes training and evaluation code
 ```
 
-Made with ❤️ by Dolapo Falana — Software Engineer (Flutter Developer & ML enthusiast)
