@@ -77,7 +77,7 @@ Often used in real-world Kaggle competitions
 
 
 ## Interpretability
-We used **SHAP (SHapley Additive exPlanations)** to interpret both models.
+I used **SHAP (SHapley Additive exPlanations)** to interpret both models.
 
 - SHAP summary plots were used to visualize global feature importance.  
 - Waterfall plots explained individual patient predictions.
@@ -86,10 +86,4 @@ We used **SHAP (SHapley Additive exPlanations)** to interpret both models.
 - Features like **chest pain type (cp)**, **max heart rate (thalach)**, **oldpeak**, and **ca** were most influential.  
 - Both models showed similar patterns in feature importance.
 
-## 📂 How to Run
-
-```bash
-pip install -r requirements.txt
-python train_rf_xgb.py  # includes training and evaluation code
-```
 
